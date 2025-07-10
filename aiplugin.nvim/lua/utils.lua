@@ -14,6 +14,7 @@ function M.readFile(path)
 	return data
 end
 
+--- For the record this is flagrantly taken from https://github.com/Bryley/neoai.nvim/
 ---Executes command getting stdout chunks
 ---@param cmd string
 ---@param args string[]
